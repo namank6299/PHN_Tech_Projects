@@ -6,13 +6,6 @@ This repository showcases the projects completed during a two-month online web d
 ## Technologies Used  
 - **HTML**  
 - **CSS**  
-- **JavaScript (basic)**  
-
-## Key Highlights  
-- Developed interfaces emphasizing user-centric design principles.  
-- Ensured **complete responsiveness** across devices.  
-- Achieved **seamless navigation** for enhanced user experience.  
-- Crafted **thoughtfully designed user interfaces** with attention to detail.  
 
 This experience has honed my understanding of design principles, element arrangement, and the implementation of responsive web designs. The skills gained here have served as a foundation for tackling more advanced projects in the future.  
 
