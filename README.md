@@ -16,4 +16,4 @@ This repository showcases the projects completed during a two-month online web d
 
 This experience has honed my understanding of design principles, element arrangement, and the implementation of responsive web designs. The skills gained here have served as a foundation for tackling more advanced projects in the future.  
 
-If you’ve explored this far, don’t miss checking out my work where responsiveness, intuitive navigation, and quality design are key features. Explore the project [here]([#](https://github.com/namank6299/PennyJuice/).
+If you’ve explored this far, don’t miss checking out my work where responsiveness, intuitive navigation, and quality design are key features. Explore the project [here](https://github.com/namank6299/PennyJuice/).
