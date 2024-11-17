@@ -1,0 +1,56 @@
+/* it will apply for less than 700px, usually for smartphone.*/
+@media only screen and (max-width: 700px) {
+    .web-banner {
+        height: 88vh;
+    }
+
+    .bottom-nav ul {
+        flex-wrap: wrap;
+    }
+
+    .top-nav {
+        justify-content: space-between;
+    }
+
+    .mid-home {
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    .banner-description {
+        position: static;
+        width: 90%;
+        padding: 0;
+        margin: 14px 0px;
+    }
+
+    .form-container {
+        position: static;
+        width: 90%;
+        margin: 0px 0px 29px 0px;
+        padding: 0;
+    }
+
+    form {
+        display: block;
+        margin: 24px 0px 0px 0px;
+    }
+
+    .form-item.fbtn2 {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .fbtn {
+        margin-left: 39%;
+    }
+
+    .fe-container {
+        grid-template-columns: repeat(1, auto);
+        padding: 11px 0px;
+    }
+
+    .fe-item {
+        width: 100%;
+        height: 100%;
+    }
+}
