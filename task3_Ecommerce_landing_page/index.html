@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>practice to ecommerce</title>
+</head>
+
+<body>
+
+    <!--nav>
+        <ul>
+            <li><a href="">social media<span class="below-border"></span> </a></li>
+            <li><a href="">television media<span class="below-border"></span></a></li>
+        </ul>
+    </nav-->
+
+    <div id="header">
+        <header>
+            <div class="header-left">
+                <div class="logo">
+                    <h1>E-commerce</h1>
+                </div>
+                <div class="search-bar">
+                    <input type="search" name="search-heading" id="search" placeholder="Type to search">
+                    <button id="btn" type="submit"><span class="material-symbols-outlined">
+                            search
+                        </span></button>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <div class="account-cart">user
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                </div>
+                <div class="account-cart1">Your cart
+                    <span class="material-symbols-outlined">
+                        shopping_cart
+                    </span>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <section>
+        <div id="services">
+            <ul class="services-container">
+                <li class="services" id="electronics-category">
+                    <a href="#electronics-product">Electronics<span class="material-symbols-outlined">
+                            expand_less
+                        </span>
+                    </a>
+                    <ul id="electronics-subcategory">
+                        <li id="mobile-category"><a href="">Mobile<span class="material-symbols-outlined">
+                                    keyboard_arrow_left
+                                </span></a>
+                            <ul id="mobile-companies">
+                                <li id="iphone"><a href="">Apple</a>
+                                <li><a href="">Samsung</a></li>
+                                <li><a href="">Redmi</a></li>
+                                <li><a href="">Realme</a></li>
+                                <li><a href="">Vivo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Laptop</a></li>
+                        <li><a href="">Watches</a></li>
+                        <li><a href="">Televisions</a></li>
+                        <li><a href="">Earphones</a></li>
+                    </ul>
+                </li>
+                <li class="services" id="clothing-category">
+                    <a href="#">Clothing<span class="material-symbols-outlined">
+                            expand_less
+                        </span></a>
+                    <ul id="clothing-subcategory">
+                        <li id="mens-kids-section"><a href="">Men's & kid's wear<span class="material-symbols-outlined">
+                                    keyboard_arrow_left
+                                </span></a>
+                            <ul id="mens-kids-section-clothes">
+                                <li><a href="">Jeans</a></li>
+                                <li><a href="">Shirts</a>
+                                <li><a href="">T-Shirts</a></li>
+                                <li><a href="">Trousers / pant</a></li>
+                                <li><a href="">Jackets</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Women's wear</a></li>
+                        <li><a href="">Formal & Casual Shirt/T-shirt</a></li>
+                        <li><a href="">Sarees & Lehanga</a></li>
+                        <li><a href="">Trousers & Kurta-Pajamas</a></li>
+                    </ul>
+                </li>
+                <li class="services" id="footwear-category">
+                    <a href="#">Footwear<span class="material-symbols-outlined">
+                            expand_less
+                        </span></a>
+                    <ul id="footwear-subcategory">
+                        <li id="formal-shoes"><a href="">Formal shoes<span class="material-symbols-outlined">
+                                    keyboard_arrow_left
+                                </span></a>
+                            <ul id="formal-shoes-brands">
+                                <li><a href="">Bata</a></li>
+                                <li><a href="">Khadim</a>
+                                <li><a href="">Sparx</a></li>
+                                <li><a href="">Campus</a></li>
+                                <li><a href="">Asean</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Casual shoes</a></li>
+                        <li><a href="">Sports shoes</a></li>
+                        <li><a href="">Sneakers</a></li>
+                        <li><a href="">Loaffers</a></li>
+                    </ul>
+                </li>
+                <li class="services" id="furniture-category">
+                    <a href="#">Furniture<span class="material-symbols-outlined">
+                            expand_less
+                        </span></a>
+                    <ul id="furniture-subcategory">
+                        <li id="cough"><a href="">Cough/Sofa<span class="material-symbols-outlined">
+                                    keyboard_arrow_left
+                                </span></a>
+                            <ul id="cough-brands">
+                                <li><a href="">Godrej interio</a></li>
+                                <li><a href="">WoodenStreet</a>
+                                <li><a href="">HomeTown</a></li>
+                                <li><a href="">Excel furniture</a></li>
+                                <li><a href="">Nilkamal furniture</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Table</a></li>
+                        <li><a href="">Chair</a></li>
+                        <li><a href="">Wardrobe</a></li>
+                        <li><a href="">Mattress</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <div class="main">
+        <div class="web-banner">
+            <div class="web-button-pressing">
+                <button id="banner-btn1"><span class="material-symbols-outlined">
+                        arrow_back_ios
+                    </span>
+                </button>
+            </div>
+            <div class="web-button-pressing1">
+                <button id="banner-btn2" onclick="show()"><span class="material-symbols-outlined">
+                        arrow_forward_ios
+                    </span>
+                </button>
+            </div>
+            <a href="electronics-product">
+                <img id="top-banner-image" src="./img/electronics 851-315.jpg" alt="electronics-category"></a>
+        </div>
+
+        <div class="ecommerce-banner-container">
+            <div class="ecommerce-banner-text-container">
+                <h1>Shop with your Favourite and latest product across the brands</h1>
+                <div class="ecommerce-icons">
+                    <div class="ecom-icons">
+                        <span class="material-symbols-outlined">
+                            local_shipping
+                        </span>
+                        <p class="about-ecom-icons">Free delivery</p>
+                    </div>
+                    <div class="ecom-icons">
+                        <span class="material-symbols-outlined">
+                            local_shipping
+                        </span>
+                        <p class="about-ecom-icons">Cash on delivery</p>
+                    </div>
+                    <div class="ecom-icons">
+                        <span class="material-symbols-outlined">
+                            local_shipping
+                        </span>
+                        <p class="about-ecom-icons">Easy returns</p>
+                    </div>
+                </div>
+                <div class="exploring-button">
+                    <a href="#electronics-product"><button id="explore-btn">Let's Explore</button></a>
+                </div>
+            </div>
+            <div class="ecommerce-banner-image-container">
+                <img src="img/ecommerce-banner.png" alt="" width="100%" height="100%">
+            </div>
+        </div>
+
+        <div id="electronics-product">
+            <h2>Top Brand's product for the Electronics category</h2>
+            <div class="electronics-product-container">
+                <div class="e-product-containers">
+                    <div class="phone-container">
+                        <span class="brand-name">Realme</span>
+                        <img src="./e-commerce-images/realme.jpg" id="realme-image" alt="realme">
+                    </div>
+                    <div class="phone-container">
+                        <span class="brand-name">Vivo</span>
+                        <img src="./e-commerce-images/vivo.jpg" id="vivo-image" alt="vivo">
+                    </div>
+
+                    <div class="phone-container">
+                        <span class="brand-name">Iphone</span>
+                        <img src="./e-commerce-images/iphone.webp" alt="iphone">
+                    </div>
+                    <div class="phone-container">
+                        <span class="brand-name">Redmi</span>
+                        <img src="./e-commerce-images/redmi.jpg" alt="redmi">
+                    </div>
+                    <div class="phone-container">
+                        <span class="brand-name">Samsung</span>
+                        <img src="./e-commerce-images/samsung.webp" alt="samsung">
+                    </div>
+                </div>
+            </div>
+
+            <div class="electronics-product-container">
+                <div class="e-product-laptop-containers">
+                    <div class="laptop-container1">
+                        <span class="brand-name">Laptop collections</span>
+                        <img src="./e-commerce-images/laptop-banner1.jpg" alt="Laptop collections">
+                    </div>
+                    <div class="laptop-container2">
+                        <img src="./e-commerce-images/laptop1asus.jpg" id="laptop-image" alt="laptop-brands">
+                    </div>
+                </div>
+            </div>
+
+            <div class="electronics-product-container">
+                <div class="e-product-watch-containers">
+                    <div class="watch-container">
+                        <span class="brand-name" id="m-w-brand-name">Men's watches</span>
+                        <img src="./e-commerce-images/watch1.1.fastrack.jpg" alt="Mens watches" id="mens-watches">
+                    </div>
+                    <div class="watch-container">
+                        <span class="brand-name">watches collection</span>
+                        <img src="./e-commerce-images/watches-banner.webp" alt="Watches collections">
+                    </div>
+                    <div class="watch-container">
+                        <span class="brand-name" id="w-w-brand-name">Lady;s watch</span>
+                        <img src="./e-commerce-images/watch.women1.jpg" id="lady-watches" alt="Lady's watches">
+                    </div>
+                </div>
+            </div>
+
+            <div class="electronics-product-container">
+                <div class="e-product-television-containers">
+                    <div class="television-container1">
+                        <span class="brand-name">Television collections</span>
+                        <img src="./e-commerce-images/tvbanner.jpg" alt="Television collections">
+                    </div>
+                    <div class="television-container2">
+                        <img src="./e-commerce-images/tv1.sony.webp" id="television-image" alt="Television-brands">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="clothing-product">
+            <h2>Top Brand's product for the Clothing category</h2>
+            <p>just need to replicate the code same as the electronics category</p>
+        </div>
+
+        <div id="footwear-product">
+            <h2>Top brands for the Footwear category</h2>
+            <p>just need to replicate the code same as the electronics category</p>
+        </div>
+
+        <div id="furniture-product">
+            <h2>Top brands for the Furniture category</h2>
+            <p>just need to replicate the code same as the electronics category</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-center">
+            Copyright &copy; www.myecommerce.com. All rights reserved!
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
